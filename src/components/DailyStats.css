@@ -1,0 +1,51 @@
+#daily-stats {
+    font-family: var(--font);
+    color: var(--mainfont);
+}
+
+#daily-stats .grid-space, 
+#daily-stats .grid-header {
+    float: left;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    overflow: hidden;
+}
+
+#daily-stats .grid-header {
+    font-size: 1rem;
+    border: 1px solid #FFFFFF00
+}
+
+#daily-stats div.grid-header.col0 { 
+    border: none;
+    color: var(--subfont);
+}
+
+#daily-stats div.grid-header.row0 { 
+    text-align:center; 
+    color: var(--subfont);
+}
+
+#daily-stats .grid-space {
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: bottom;
+    background-color: var(--subbg);
+    border: 1px solid var(--mainbg);
+    color: var(--mainfont);
+}
+
+.circled {
+    display: block;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    margin:2px;
+    background-color: var(--subfont);
+    color: var(--mainfont);
+    text-align: center;
+    font-size: 1em;
+}
