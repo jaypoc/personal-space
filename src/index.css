@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+:root{
+  --font: 'Roboto', sans-serif;
+  
+  --mainbg: #282c34;     /* Overall page background color */
+  --subbg: #212121;      /* Textarea/Secondary background color */
+  
+  --mainfont: #ccc;   /* Primary color for text  */
+  --subfont: #666;    /* Secondary color for text/subheadings */
 }

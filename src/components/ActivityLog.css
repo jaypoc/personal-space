@@ -1,0 +1,36 @@
+#activity-log {
+    font-family: var(--font);
+    color: var(--mainfont);
+}
+
+#activity-log .letterbox, 
+#activity-log .textbox, 
+#activity-log .numbercell { 
+    float: left;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+#activity-log .numbercell { 
+    font-size: 1rem;
+    color: var(--subfont);
+    border: 1px solid #FFFFFF00
+}
+
+#activity-log .letterbox { 
+    width: 40px;
+    margin-right: 10px;
+    background-color: var(--subbg);
+    border: 1px solid var(--mainbg);
+    
+}
+
+#activity-log .textbox { 
+    width: 40vw;
+    background-color: var(--subbg);
+    text-align: left;
+    padding-left:10px;
+    border: 1px solid var(--mainbg);
+}
