@@ -1,0 +1,6 @@
+projectKey=personal-space-ui
+serverUrl=http://localhost:9000
+serverVersion=9.2.4.50792
+dashboardUrl=http://localhost:9000/dashboard?id=personal-space-ui
+ceTaskId=AX4TtKrhKc_EeUVse3Gu
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX4TtKrhKc_EeUVse3Gu

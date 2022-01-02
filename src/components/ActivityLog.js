@@ -4,7 +4,7 @@ const logitems = [];
 
 for (var i=1; i <= 18; i++) { logitems.push(i) }
 
-function DailyGrid() {
+function ActivityLog() {
   return (
     <section id="activity-log">
       <div className="ActivityLog">
@@ -29,4 +29,4 @@ function DailyGrid() {
   );
 }
 
-export default DailyGrid;
+export default ActivityLog;
